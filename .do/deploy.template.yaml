@@ -1,0 +1,10 @@
+spec:
+  name: xtareq
+  static_sites:
+    - name: xtareq
+      environment_slug: html
+      git:
+        branch: main
+        repo_clone_url: https://github.com/finalhalf/xtareq.git
+      source_dir: /
+      index_document: index.html
